@@ -8,9 +8,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="flink-start" />
+        <module name="flink-exercise" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="exercise" target="8" />
+      <module name="flink-exercise" target="8" />
       <module name="flink-learn" target="8" />
       <module name="flink-start" target="8" />
     </bytecodeTargetLevel>
